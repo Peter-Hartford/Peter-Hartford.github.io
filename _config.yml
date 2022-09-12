@@ -19,17 +19,40 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Peter Hartford
-email: peter.w.hartford@gmail.com
+email: peter.w.harford@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am currently a Senior at the University of Minnesota - Twin Cities. General academic interests include fliud dynamics, controls, and vehicle design. In my time away from my studies,
-  I like to do work for the Rocket Team, Play Piano, Bake Banana Bread, Hike, and Climb. Feel free to reach out to my email if you have any inquiries. ~Peter 
-baseurl: "/home" # the subpath of your site, e.g. /blog
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: '@Peter_Hartford'
-github_username:  Peter-Hartford
+twitter_username: '@peter-hartford'
+github_username:  peter-hartford
 
 # Build settings
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air"
+
+search: true
+
+author:
+  name: "Peter Hartford"
+  avatar: "/assets/images/ProfessionalPhoto.jpg"
+
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/Peter_Hartford"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/peter-hartford"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
+
+
 plugins:
   - jekyll-feed
 
