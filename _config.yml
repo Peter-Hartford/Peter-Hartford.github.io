@@ -29,7 +29,7 @@ twitter_username: '@Peter_Hartford'
 github_username:  Peter-Hartford
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
