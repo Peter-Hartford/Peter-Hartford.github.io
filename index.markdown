@@ -4,8 +4,11 @@
 
 layout: home
 
+
+
+
 author_profile: true 
 author: Peter Hartford
-
-
 ---
+
+Major interests include 

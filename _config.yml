@@ -30,7 +30,6 @@ theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "mint"
 
 breadcrumbs: true 
-
 search: true
 
 defaults:
