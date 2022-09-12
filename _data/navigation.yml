@@ -1,0 +1,14 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Posts"
+    url: /posts/
+  - title: "Papers"
+    url: /papers/
+  - title: "Art"
+    url: /art/
+  - title: "Pages"
+    url: /pages/
+  - title: "About"
+    url: /about/
+

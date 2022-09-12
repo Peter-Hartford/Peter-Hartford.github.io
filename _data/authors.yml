@@ -1,0 +1,10 @@
+Peter Hartford:
+  name        : "Peter Hartford"
+  avatar      : "/assets/images/ProfessionalPhoto.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:peter.w.hartford@gmail.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/Peter_Hartford"

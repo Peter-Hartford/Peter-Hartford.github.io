@@ -24,8 +24,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   "Undergraduate researcher at the University of Minnesota. Interests include Experimental Fluid Mechanics, Controls, and Rocketry."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: '@peter-hartford'
-github_username:  peter-hartford
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -42,24 +40,18 @@ defaults:
       type: posts
     values:
       show_date: true
-
-main:
-  - title: "Home"
-    url: /
-  - title: "Posts"
-    url: /Posts/
-  - title: "Education"
-    url: /Education/
-  - title: "Art"
-    url: /Art/
+  # _posts
+  - scope:
+      path: ""
+      type: home
+    values:
+      author_profile: true
 
 breadcrumb_home_label : "Home"
 breadcrumb_separator  : "/"
 
 
-author:
-  name: "Peter Hartford"
-  avatar: "/assets/images/ProfessionalPhoto.jpg"
+
 
 
 footer:
